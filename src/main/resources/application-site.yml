@@ -1,0 +1,22 @@
+server:
+  port: 8082
+  session-timeout: 5
+#  context-path: /demo
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/world?useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+    username: Damon
+    password: damon
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+
+
+
+# 自定义项目变量用于使用,见TestController
+developer: ZHAUNG
+
+

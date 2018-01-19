@@ -1,0 +1,9 @@
+
+
+
+# 不同环境使用不同的配置文件
+spring:
+  profiles:
+    active: site
+
+
